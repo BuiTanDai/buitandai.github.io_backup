@@ -35,13 +35,13 @@ html {
 html,
 html[data-theme="light"] {
 	--very-light-text-color: rgb(236, 237, 238);
-	--light-text-color: #bbb;
+	--light-text-color: #3F72AF;
 	--medium-text-color: #555;
 	--main-text-color: #333;
 	--dark-text-color: #111;
-	--link-color: #df0505;
+	--link-color: #3F72AF;
 
-	background-color: #f2f2f2;
+	background-color: #DBE2EF;
 
 	#theme-toggle div {
 		position: relative;
@@ -51,7 +51,7 @@ html[data-theme="light"] {
 		border: none;
 		background-color: var(--theme-ui-colors-transparent, transparent);
 		transform: scale(1);
-		transition: all 0.45s ease 0s;
+		transition: all 0.45s ease 0s;  
 		overflow: hidden;
 		box-shadow: inset 8px -8px 0px 0px var(--theme-ui-colors-toggleIcon, #2d3748);
 
@@ -97,7 +97,7 @@ html[data-theme="dark"] {
 	--medium-text-color: #888;
 	--main-text-color: #ddd;
 	--dark-text-color: #eee;
-	--link-color: #df0505;
+	--link-color: #ebdddd;
 
 	background-color: #0d1117;
 
@@ -150,7 +150,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: "Fira Code", monospace;
+	font-family: "New Sanfrancisco", monospace;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
